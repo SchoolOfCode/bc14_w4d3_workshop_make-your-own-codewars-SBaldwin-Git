@@ -2,6 +2,13 @@
 
 import { leapYearChecker } from "./main";
 
+// Test the leapYearCheacker function returns a boolean
+
+test("leapYearChecker returns a boolean", () =>
+{
+    expect(typeof leapYearChecker(2020)).toBe("boolean");
+});
+
 // Test the leapYearCheacker function returns true for the year 2024
 
 test("leapYearChecker returns true for the year 2024", () => {
