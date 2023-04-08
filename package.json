@@ -8,8 +8,8 @@
   },
   "author": "School of Code",
   "license": "ISC",
-  "dependencies": {
+  "type": "module",
+  "devDependencies": {
     "jest": "^29.5.0"
-  },
-  "type": "module"
+  }
 }
